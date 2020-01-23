@@ -46,61 +46,64 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-.heading {
-  font-size: 24px;
-  text-transform: capitalize;
-  padding: 30px;
+.main-parent {
+  margin: 0 auto;
+  width:955px;
 }
 
-.box {
-  background-color: red;
+.big-box {
+  height: 200px;
+  width: 400px;
+  color: white;
+  text-transform: capitalize;
+  padding: 12px;
+  font-size: 18px;
+  margin: 10px;
+}
+.small-box {
   height: 200px;
   width: 200px;
-  margin:30px;
-}
-.solid-border-box {
-  border: 2px solid black;
-}
-.double-border-box{
-  border: 2px double black;
-  display: inline-block;
-}
-.dash-border-box {
- border: 2px dashed black;
- display: inline-block;
-}
-
-.dotted-border-box{
-  border: 2px dotted black;
-  display: inline-block;
-}
-
-.none-border-box{
-   display: inline-block;
-}
-
-
-/* section2 */
-.parent-section {
-  background-color: blue;
-  height: 370px;
-  width: 275px;
-  margin: 30px;
-  padding: 30px;
-}
-
-.child-section {
-  line-height: 1.5;
-  height: 300px;
-  width: 200px;
-  background-color:lightcoral;
-  padding:20px;
-  /* margin:10px; */
-  border-top: 18px solid crimson;
-  border-bottom: 18px solid #000;
-  border-left: 18px solid yellow;
-  border-right: 18px solid orange;
   color: white;
-  font-family: sans-serif;
+  text-transform: capitalize;
+  padding: 12px;
+  font-size: 20px;
+  margin: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+}
+.col1-row1{
+  background-color: red;
+  display: inline-block;
+}
+.col1-row2 {
+  background-color: green;
+  display: inline-block;
+}
+.col1-row3 {
+  background-color: greenyellow;
+  display: inline-block;
+}
+.col2-row1 {
+  background-color: yellowgreen;
+  display:inline-block;
+}
+.col2-row2 {
+  background-color: red;
+  display: inline-block;
+}
+.col2-row3 {
+  background-color: orangered;
+  display: inline-block;
+}
+.col3-row1{
+  background-color:red;
+  display: inline-block;
+}
+.col3-row2{
+  background-color: green;
+  display: inline-block;
+}
+.col3-row3{
+  background-color: blue;
+  display: inline-block;
 }

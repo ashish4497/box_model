@@ -47,12 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+/* header  */
 .heading {
   font-size: 24px;
   text-transform: capitalize;
   padding: 30px;
 }
-
+/* main section  */
 .box {
   background-color: red;
   height: 200px;
@@ -81,7 +82,7 @@ table {
 }
 
 
-/* section2 */
+/* section section */
 .parent-section {
   background-color: blue;
   height: 370px;

@@ -46,6 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.container {
+  margin: 0 auto;
+  width: 954px;
+}
+
 /* main-section  */
 
 /* header-section  */
@@ -105,7 +110,6 @@ span {
 
 .intro-paragraph {
   font-size: 18px;
-  text-transform: capitalize;
   text-transform: left;
   width: 400px;
   margin: 10px 0;
@@ -121,7 +125,7 @@ span {
   background: none;
   text-transform: uppercase;
   font-size: 12px;
-  margin: 30px 0;
+  margin: 25px 0;
   font-weight: 700;
   color:#f1f0f0;
 }
@@ -167,7 +171,7 @@ span {
   width: 300px;
   background-color: #dd3c3c;
   border-radius: 50%;
-  margin: 20px 0 20px 500px;
+  margin: 60px auto;
 }
 
 .sec3-intro p {
@@ -187,7 +191,7 @@ span {
   font-weight: 500;
 }
 
- input {
+input {
    width:100%;
    border: 1px solid #f1f0f0;
    background: none;
@@ -197,13 +201,13 @@ span {
    font-size: 18px;
  }
 
- label {
+label {
    font-size: 20px;
    text-transform: uppercase;
    color: #f1f0f0;
  }
 
- .name-box {
+.name-box {
    height: 40px;
  }
 
@@ -212,6 +216,6 @@ span {
  }
 
 .copy-right {
-  text-transform: capitalize;
+  text-transform:lowercase;
   color: #f1f0f0;
 }

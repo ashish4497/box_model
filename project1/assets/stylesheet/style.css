@@ -60,13 +60,16 @@ table {
   width: 200px;
   margin:30px;
 }
+
 .solid-border-box {
   border: 2px solid black;
 }
+
 .double-border-box{
   border: 2px double black;
   display: inline-block;
 }
+
 .dash-border-box {
  border: 2px dashed black;
  display: inline-block;
@@ -80,7 +83,6 @@ table {
 .none-border-box{
    display: inline-block;
 }
-
 
 /* section section */
 .parent-section {

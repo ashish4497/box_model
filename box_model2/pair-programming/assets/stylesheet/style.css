@@ -52,8 +52,10 @@ table {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Sansita', sans-serif;
 }
+
+
 /* COMMON CLASSES  */
 .container {
   margin: 0 auto;
@@ -72,8 +74,9 @@ body {
 .heading h1 {
   text-transform:capitalize;
   color:white;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
+  font-weight: 500;
 }
 .heading a {
   text-decoration: none;

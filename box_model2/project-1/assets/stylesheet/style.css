@@ -42,6 +42,9 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 table {
 	border-collapse: collapse;
@@ -49,6 +52,7 @@ table {
 }
 
 /* GENERIC CLASS  */
+
 .container {
   margin: 0 auto;
   width: 780px;
@@ -88,8 +92,9 @@ p{
 }
 
 /* HEADER  */
+
 .heading {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: capitalize;
   text-align: center;
   margin: 18px 0;
@@ -106,7 +111,9 @@ p{
   padding:20px;
   margin:40px auto;
 }
+
 /* SECTION-1  */
+
 .clr-1{
   background-color: burlywood;
 }
@@ -129,6 +136,7 @@ p{
 }
 
 /* SECTION-2  */
+
 .box-child {
   height: 100px;
   width: 180px;
@@ -137,22 +145,8 @@ p{
   display: inline-block;
 }
 
-/* SECTION-3  */
-.box-2 {
-  height: 100px;
-  width: 180px;
-  background-color:grey;
-  margin:30px 26px;
-  display: inline-block;
-}
-
 /* SECTION-4    */
+
 .box-child-2 {
   box-sizing: border-box;
-  height: 100px;
-  width: 180px;
-  background-color:grey;
-  display: inline-block;
-  margin: 10px;
-  border: 1px solid black;
 }

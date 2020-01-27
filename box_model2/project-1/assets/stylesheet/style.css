@@ -123,6 +123,11 @@ p{
   background-color: rebeccapurple;
 }
 
+.color-name-list { 
+  text-align: center;
+  padding: 30px 0;
+}
+
 /* SECTION-2  */
 .box-child {
   height: 100px;
